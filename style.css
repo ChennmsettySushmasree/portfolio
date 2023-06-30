@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    margin: 0;
+}
+/* ----------------------------------------nav0bar------------------------------------------------------------ */
+
+.nav-bar{
+    width: 70%;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name{
+    font-family:  'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(1, 33, 102);
+    font-size: 24px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.links{
+    margin: 10px;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+.links:hover{
+    background-color: rgba(0, 0, 0, 0.113);
+    color: rgb(1, 33, 102);
+    font-weight: bold;
+    font-family:  'Poppins', sans-serif;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.061);
+}
+/* ----------------------------------------------------------profilesection--------------------------------------------- */
+.profile-section{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* align-items: center; */
+    display: flex;
+}
+.text-container{
+    display: block;
+    width: 600px;
+    
+}
+.profilename{
+    font-family:  'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(16, 65, 170);
+    font-size: 24px;
+
+}
+.profile-work{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(227, 54, 54);
+
+}
+.proimg{
+    width: 200px;
+    height: 205px;
+    border-radius: 50% ;
+    margin: 20px;
+    border: 2px solid black;
+    object-fit: cover;
+
+}
+.icons{
+    width: 400px;
+}
+.ico{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 6px 8px;
+}
+.socialmedia{
+    text-decoration: none;
+
+}
+/* -----------------------------------------project-section and clones section--------------------------------------------------- */
+.project-section{
+    width: 73%;
+    margin: 0px auto;
+    justify-content: center;
+    margin-top: 50px;
+    font-family:  'Poppins', sans-serif;
+
+}
+.heading{
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+.projects{
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid black;
+    padding: 25px;
+    justify-content: space-between;
+
+}
+.first-card{
+    width: 400px ;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    height: 420px;
+}
+.second-card{
+    width: 400px ;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    height: 420px;
+
+}
+.projectimg{
+    width: 100%;
+    border-radius:10px ;
+    height: 250px;
+}
+.projectname{
+    font-family:  'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(16, 65, 170);
+    font-size: 17px;
+
+}
+.description{
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+}
+/* ------------------------------------------------------------mediaqueries------------------------------------------------------- */
+@media(max-width:576px){
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .nav-bar{
+        width: 100% ;
+        margin: 0;
+        padding: 0;
+    }
+    .name{
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    .profile-section{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        flex-wrap: wrap-reverse;
+    }
+    .description{
+        font-size: 13px;
+
+    }
+    .profile-img{
+        align-items: center;
+        margin: 0px auto;
+    }
+    .project-section{
+        width: 100%;
+    }
+    .projects{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    .second-card{
+        margin-top: 20px;
+    }
+    .icons{
+        width: auto;
+
+    }
+
+}
